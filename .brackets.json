@@ -1,0 +1,16 @@
+{
+    "path": {
+        "styles.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "css/",
+                "imagePath": null,
+                "sourceComents": false,
+                "outputStyle": "nested"
+            },
+            "linting.collapased": true,
+            "linting.collapsed": true,
+            "useTabChar": false
+        }
+    }
+}

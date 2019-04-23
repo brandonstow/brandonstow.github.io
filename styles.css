@@ -1,0 +1,330 @@
+/* line 1, X:/portfolio1/portfolio/styles.scss */
+#h2 {
+  position: absolute;
+  font-family: 'Courier New', monospace;
+  top: 180px;
+  padding-left: 60px;
+  font-size: 40px; }
+
+/* line 11, X:/portfolio1/portfolio/styles.scss */
+#background {
+  position: relative;
+  height: 100vh; }
+
+/* line 18, X:/portfolio1/portfolio/styles.scss */
+.heading {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: white; }
+
+/* line 28, X:/portfolio1/portfolio/styles.scss */
+.para {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 15px;
+  font-size: 17px;
+  padding-top: 10px; }
+
+/* line 40, X:/portfolio1/portfolio/styles.scss */
+#para2 {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 17px;
+  padding-top: 10px; }
+
+/* line 51, X:/portfolio1/portfolio/styles.scss */
+#footer {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  font-size: 20px; }
+
+/* line 59, X:/portfolio1/portfolio/styles.scss */
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  width: 300px; }
+
+/* line 71, X:/portfolio1/portfolio/styles.scss */
+#body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url(/backgroundnew.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/* line 83, X:/portfolio1/portfolio/styles.scss */
+.row {
+  margin-bottom: 0.5rem; }
+
+/* line 87, X:/portfolio1/portfolio/styles.scss */
+[class*="col-"] {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+/* line 96, X:/portfolio1/portfolio/styles.scss */
+#form {
+  padding: 20px;
+  padding-left: 100px; }
+
+/* line 102, X:/portfolio1/portfolio/styles.scss */
+#form div {
+  margin-top: 10px;
+  text-align: center;
+  float: right; }
+
+/* line 113, X:/portfolio1/portfolio/styles.scss */
+#form input,
+textarea,
+button {
+  width: 96%;
+  border: 2px solid #9ECEDB;
+  border-radius: 20px;
+  padding: 11px;
+  border-color: black;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 15px; }
+
+/* line 127, X:/portfolio1/portfolio/styles.scss */
+#form label {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Courier New', monospace;
+  text-align: center; }
+
+/* line 134, X:/portfolio1/portfolio/styles.scss */
+#form button {
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  text-align: center; }
+
+/* line 140, X:/portfolio1/portfolio/styles.scss */
+#form button:hover {
+  background-color: darkgray; }
+
+/* line 144, X:/portfolio1/portfolio/styles.scss */
+.required {
+  color: darkgray; }
+
+/* line 148, X:/portfolio1/portfolio/styles.scss */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.0s ease;
+  background-color: black;
+  border-radius: 40px; }
+
+/* line 163, X:/portfolio1/portfolio/styles.scss */
+.col-xl-4:hover .overlay {
+  opacity: 0.6; }
+
+/* line 167, X:/portfolio1/portfolio/styles.scss */
+.text {
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 178, X:/portfolio1/portfolio/styles.scss */
+.img-thumbnail {
+  display: block;
+  width: 400px;
+  height: auto;
+  box-shadow: 5px 5px 5px #888888; }
+
+/* line 186, X:/portfolio1/portfolio/styles.scss */
+.myfacee {
+  padding-right: 30px;
+  padding-left: 30px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 196, X:/portfolio1/portfolio/styles.scss */
+  .img-thumbnail {
+    width: 50%;
+    margin: auto; }
+  /* line 201, X:/portfolio1/portfolio/styles.scss */
+  .myface {
+    width: 50%;
+    display: block;
+    margin: auto; } }
+
+@media only screen and (max-width: 900px) {
+  /* line 210, X:/portfolio1/portfolio/styles.scss */
+  #background {
+    height: 750px; }
+  /* line 214, X:/portfolio1/portfolio/styles.scss */
+  .project {
+    width: 700px;
+    height: auto; } }
+
+@media only screen and (max-width: 700px) {
+  /* line 222, X:/portfolio1/portfolio/styles.scss */
+  .img-thumbnail {
+    width: 60%;
+    margin: auto; }
+  /* line 227, X:/portfolio1/portfolio/styles.scss */
+  .myfacee {
+    width: 50%;
+    display: inline;
+    margin: auto; }
+  /* line 233, X:/portfolio1/portfolio/styles.scss */
+  .socialIcon {
+    width: 10%;
+    display: inline;
+    margin: auto; }
+  /* line 240, X:/portfolio1/portfolio/styles.scss */
+  .IGicon {
+    width: 10%;
+    display: inline;
+    margin: auto; }
+  /* line 246, X:/portfolio1/portfolio/styles.scss */
+  #para2 {
+    padding: 0px;
+    margin: 0px; }
+  /* line 250, X:/portfolio1/portfolio/styles.scss */
+  #h2 {
+    width: 30%;
+    color: white;
+    font-size: 25px; }
+  /* line 256, X:/portfolio1/portfolio/styles.scss */
+  #form div {
+    text-align: center; }
+  /* line 260, X:/portfolio1/portfolio/styles.scss */
+  #background {
+    height: 400px; }
+  /* line 263, X:/portfolio1/portfolio/styles.scss */
+  .project {
+    width: 500px;
+    height: auto; }
+  /* line 267, X:/portfolio1/portfolio/styles.scss */
+  .heading {
+    color: white; }
+  /* line 273, X:/portfolio1/portfolio/styles.scss */
+  #footer {
+    color: white; }
+  /* line 278, X:/portfolio1/portfolio/styles.scss */
+  #form {
+    color: white; } }
+
+@media only screen and (max-width: 500px) {
+  /* line 286, X:/portfolio1/portfolio/styles.scss */
+  .img-thumbnail {
+    width: 90%;
+    margin: auto; }
+  /* line 291, X:/portfolio1/portfolio/styles.scss */
+  .myfacee {
+    width: 90%;
+    margin: auto; }
+  /* line 296, X:/portfolio1/portfolio/styles.scss */
+  #para2 {
+    padding: 0px;
+    margin: 0px; }
+  /* line 300, X:/portfolio1/portfolio/styles.scss */
+  .project {
+    height: auto;
+    width: 300px; } }
+
+/* line 308, X:/portfolio1/portfolio/styles.scss */
+#project2 {
+  float: right;
+  box-shadow: 5px 5px 5px #888888;
+  margin-right: 30px;
+  margin-left: 20px;
+  overflow: auto;
+  max-width: 600px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px; }
+
+/* line 321, X:/portfolio1/portfolio/styles.scss */
+#proText2 {
+  padding-left: 45px;
+  font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace;
+  font-size: 17px;
+  overflow: auto; }
+
+/* line 331, X:/portfolio1/portfolio/styles.scss */
+.project {
+  float: left;
+  box-shadow: 5px 5px 5px #888888;
+  margin-right: 30px;
+  max-width: 600px;
+  height: auto;
+  padding-top: 10px;
+  width: 100%;
+  margin-bottom: 20px; }
+
+/* line 343, X:/portfolio1/portfolio/styles.scss */
+.proText {
+  padding-left: 20px;
+  font-family: 'Courier New', monospace;
+  font-size: 17px;
+  padding-right: 20px; }
+
+/* line 353, X:/portfolio1/portfolio/styles.scss */
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: auto; }
+
+/* line 362, X:/portfolio1/portfolio/styles.scss */
+#IGicon {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin: auto; }
+
+/* line 370, X:/portfolio1/portfolio/styles.scss */
+#iconText {
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+  color: aliceblue; }
+
+/* line 380, X:/portfolio1/portfolio/styles.scss */
+#icons {
+  text-align: center;
+  margin-top: 10px; }
+
+/* line 386, X:/portfolio1/portfolio/styles.scss */
+.tablets {
+  background-color: white;
+  border: black solid;
+  border-radius: 20px;
+  margin: 10px; }
+
+/* line 393, X:/portfolio1/portfolio/styles.scss */
+.tablets2 {
+  background-color: white;
+  border: black solid;
+  border-radius: 20px;
+  margin: 27px; }
+
+/*# sourceMappingURL=styles.css.map */

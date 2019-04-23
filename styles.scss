@@ -1,0 +1,398 @@
+#h2 {
+    position: absolute;
+    font-family: 'Courier New', monospace;
+    top: 180px;
+    padding-left: 60px;
+    font-size: 40px;
+
+
+}
+
+#background {
+    position: relative;
+    height: 100vh;
+
+
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: white;
+
+}
+
+.para {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 15px;
+    font-size: 17px;
+    padding-top: 10px;
+
+}
+
+#para2 {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    font-size: 17px;
+    padding-top: 10px;
+
+}
+
+#footer {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    width: 300px;
+
+
+}
+
+
+
+#body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(/backgroundnew.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+}
+
+
+.row {
+    margin-bottom: 0.5rem;
+}
+
+[class*="col-"] {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+
+
+
+#form {
+    padding: 20px;
+    padding-left: 100px;
+
+}
+
+#form div {
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+
+
+
+
+
+}
+
+#form input,
+textarea,
+button {
+    width: 96%;
+    border: 2px solid #9ECEDB;
+    border-radius: 20px;
+    padding: 11px;
+    border-color: black;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 15px
+}
+
+#form label {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+#form button {
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+#form button:hover {
+    background-color: darkgray;
+}
+
+.required {
+    color: darkgray;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1.0s ease;
+    background-color: black;
+
+    border-radius: 40px;
+}
+
+.col-xl-4:hover .overlay {
+    opacity: 0.6;
+}
+
+.text {
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.img-thumbnail {
+    display: block;
+    width: 400px;
+    height: auto;
+    box-shadow: 5px 5px 5px #888888;
+
+}
+
+.myfacee {
+    padding-right: 30px;
+    padding-left: 30px;
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .img-thumbnail {
+        width: 50%;
+        margin: auto;
+
+    }
+    .myface {
+        width: 50%;
+        display: block;
+        margin: auto;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #background {
+        height: 750px;
+    }
+
+    .project {
+        width: 700px;
+        height: auto;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .img-thumbnail {
+        width: 60%;
+        margin: auto;
+
+    }
+    .myfacee {
+        width: 50%;
+       display: inline;
+        margin: auto;
+
+    }
+    .socialIcon {
+        width: 10%;
+        display: inline;
+        margin: auto;
+
+
+    }
+    .IGicon {
+        width: 10%;
+        display: inline;
+        margin: auto;
+
+    }
+    #para2 {
+        padding: 0px;
+        margin: 0px;
+    }
+    #h2 {
+        width: 30%;
+        color: white;
+        font-size: 25px;
+
+    }
+    #form div {
+        text-align: center;
+
+    }
+    #background {
+        height: 400px;
+    }
+    .project {
+        width: 500px;
+        height: auto;
+    }
+    .heading {
+        color: white;
+
+
+
+    }
+    #footer{
+        color: white;
+        
+}
+
+    #form {
+        color: white;
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .img-thumbnail {
+        width: 90%;
+        margin: auto;
+
+    }
+    .myfacee {
+        width: 90%;
+        margin: auto;
+
+    }
+    #para2 {
+        padding: 0px;
+        margin: 0px;
+    }
+    .project {
+        height: auto;
+        width: 300px;
+    }
+
+}
+
+
+#project2 {
+    float: right;
+    box-shadow: 5px 5px 5px #888888;
+    margin-right: 30px;
+    margin-left: 20px;
+    overflow: auto;
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+#proText2 {
+
+    padding-left: 45px;
+    font-family: 'Courier New', monospace;
+    font-family: 'Courier New', monospace;
+    font-size: 17px;
+    overflow: auto;
+
+}
+
+.project {
+    float: left;
+    box-shadow: 5px 5px 5px #888888;
+    margin-right: 30px;
+    max-width: 600px;
+    height: auto;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.proText {
+    padding-left: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 17px;
+    padding-right: 20px;
+    
+
+}
+
+
+.socialIcon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+
+
+}
+
+#IGicon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: auto;
+
+}
+
+#iconText {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+#icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.tablets {
+    background-color: white;
+    border: black solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.tablets2 {
+    background-color: white;
+    border: black solid;
+    border-radius: 20px;
+    margin: 27px;
+}
