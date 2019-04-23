@@ -57,7 +57,7 @@
 #body {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-image: url(/backgroundnew.jpg);
+  /*background-image: url(backgroundnew.jpg);*/
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
